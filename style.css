@@ -1,0 +1,104 @@
+
+body{
+  margin: 0px;  
+  text-align:center;
+  font-family: 'Righteous', cursive;
+}
+
+.header {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    margin-bottom: 0px;    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.perfil{
+    border-radius: 36%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;    
+}
+
+.perfil:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px goldenrod;
+    -webkit-box-shadow: 0px 0px 15px 15px goldenrod;
+    -webkit-transform:scale(1.25);transform:scale(1.25);
+    transition: 1s;
+}
+
+
+.contacto {
+    background-color: lightslategray;
+    width: 33%;
+    justify-content: center;
+    
+    }
+
+.datos {
+    background-color: lightgray;
+    width: 67%; 
+    justify-content: center;
+    
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 39px;
+    color: goldenrod;
+}
+
+a{
+    color: black;
+}
+
+button{
+    border: solid black 2px;
+    border-radius: 9px;
+    background-color: goldenrod;    
+    padding: 9px 12px 12px;
+    width: 100%;
+    font-family: 'Righteous', cursive;     
+}
+
+button:hover{
+    text-transform: uppercase;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.experiencia{
+    justify-content:center ;
+}
+
+.hide{
+    display: none;
+}
+
+footer{
+    background-color: black;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+}
+
+.github{
+   margin: auto;
+}
+
